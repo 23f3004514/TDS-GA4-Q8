@@ -19,7 +19,7 @@ jobs:
       - name: 23f3004514@ds.study.iitm.ac.in
         run: |
           git clone https://github.com/23f3004514/TDS-GA4-Q8.git
-          cd test
+          cd TDS-GA4-Q8
           echo "$(date +\"%Y-%m-%d %H:%M:%S\")" >> time.txt
 
       - name: Commit and push changes
